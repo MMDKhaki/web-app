@@ -10,7 +10,7 @@ from PyQt5.QtWebEngineWidgets import QWebEngineView
 class Browser(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle('Programer Panel Shayan MeherSaz Pars | پنل برنامه نویسی شایان مهر‍‍ساز پارس')
+        self.setWindowTitle('Programer Panel MeherSaz Pars | پنل برنامه نویسی مهر‍‍ساز پارس')
         self.setGeometry(100, 100, 1024, 768)
 
         # --- Web View ---
@@ -87,7 +87,7 @@ class Browser(QMainWindow):
 
     def update_title(self, title):
         """Update the window title with the page title."""
-        base_title = 'Programer Panel Shayan MeherSaz Pars | پنل برنامه نویسی شایان مهر‍‍ساز پارس'
+        base_title = 'Programer Panel MeherSaz Pars | پنل برنامه نویسی مهر‍‍ساز پارس'
         self.setWindowTitle(f'{title} - {base_title}')
 
 
